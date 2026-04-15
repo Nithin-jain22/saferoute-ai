@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import polyline from "@mapbox/polyline";
+const polyline = require("@mapbox/polyline");
 
 export default function Home() {
   const [source, setSource] = useState("");
